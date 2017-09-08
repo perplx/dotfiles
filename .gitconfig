@@ -1,0 +1,21 @@
+[user]
+	name = perplx
+	email = perplx@users.noreply.github.com
+[core]
+	editor = vim
+	excludefiles = ~/.gitignore_global
+[color]
+	ui = auto
+[alias]
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+
+# enable local overriding in ~/.gitconfig_local
+# put [user] in local config, to have different users
+[include]
+	path = ~/.gitconfig_local
+

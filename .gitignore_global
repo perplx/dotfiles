@@ -1,0 +1,13 @@
+# compiled object files
+*.o
+
+# python object files
+*.pyc
+*.pyo
+
+# vim swap files
+*.swp
+*.swo
+
+# vim backup files
+*~
