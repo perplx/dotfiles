@@ -60,7 +60,7 @@ export LESS=-R
 alias grep='grep --color=auto'
 
 # vcs-less grep
-alias vcsgrep='grep --exclude-dir=".svn"'
+alias vcsgrep='grep --exclude-dir=".git" --exclude-dir=".svn"'
 
 # useful ls
 alias ls='ls --color=auto --group-directories-first'
