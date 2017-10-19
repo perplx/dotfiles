@@ -115,11 +115,14 @@ set wildignore=*.o,*.obj,*.bak,*.exe,*.py[co],*.swp,*~,*.pyc,.svn
 " json: highlight .json files as .js files
 " autocmd BufNewFile,BufRead *.json set ft=javascript
 
-" xml: indent with 2 spaces
-autocmd FileType xml setlocal expandtab shiftwidth=2 tabstop=2
+" python: indent with 4 spaces
+autocmd FileType python setlocal expandtab shiftwidth=4 tabstop=4
 
 " vim: marker folding
 autocmd FileType vim setlocal foldmethod=marker
+
+" xml: indent with 2 spaces
+autocmd FileType xml setlocal expandtab shiftwidth=2 tabstop=2
 
 " }}}
 
