@@ -9,10 +9,12 @@
 " {{{
 
 " start pathogen
-"execute pathogen#infect()
-
-" grid-wide paths
-execute pathogen#infect('/nrg1/amr_alg/ncs/jdubuc/env/vim/bundle/{}')
+if isdirectory('/nrg1/amr_alg/ncs/jdubuc/env/vim/bundle')
+	" grid-wide paths
+	execute pathogen#infect('/nrg1/amr_alg/ncs/jdubuc/env/vim/bundle/{}')
+else
+	execute pathogen#infect()
+endif
 
 " }}}
 
