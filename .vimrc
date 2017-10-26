@@ -3,10 +3,7 @@
 "
 "      -Julien
 
-"
-" packages
-"
-" {{{
+" packages {{{
 
 " start pathogen
 if isdirectory('/nrg1/amr_alg/ncs/jdubuc/env/vim/bundle')
@@ -18,10 +15,7 @@ endif
 
 " }}}
 
-"
-" defaults
-"
-" {{{
+" defaults {{{
 
 " default, syntax is off (?!?)
 syntax on
@@ -37,10 +31,7 @@ endif
 
 " }}}
 
-"
-" options
-"
-" {{{
+" options {{{
 
 " backups~
 set backup
@@ -109,10 +100,7 @@ set wildignore=*.o,*.obj,*.bak,*.exe,*.py[co],*.swp,*~,*.pyc,.svn
 
 " }}}
 
-"
-" filetypes
-"
-" {{{
+" filetypes {{{
 
 " json: highlight .json files as .js files
 " autocmd BufNewFile,BufRead *.json set ft=javascript
@@ -128,10 +116,7 @@ autocmd FileType xml setlocal expandtab shiftwidth=2 tabstop=2
 
 " }}}
 
-"
-" plugins
-"
-" {{{
+" plugins {{{
 
 " CtrlP
 
