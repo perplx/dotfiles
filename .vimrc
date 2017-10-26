@@ -133,21 +133,13 @@ autocmd FileType xml setlocal expandtab shiftwidth=2 tabstop=2
 "
 " {{{
 
-" CtrlP:
+" CtrlP
 
 " CtrlP: <c-p> to invoke
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
-" neocomplete
-" taken from example at: https://github.com/Shougo/neocomplete.vim #ConfigurationExamples
-
-" Disable AutoComplPop.
-let g:acp_enableAtStartup = 0
-" Use neocomplete.
-let g:neocomplete#enable_at_startup = 1
-
-" NERDtree:
+" NERDtree
 
 " NERDtree: override netrw (should be default, isn't?)
 let g:NERDTreeHijackNetrw=1
