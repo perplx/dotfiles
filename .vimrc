@@ -130,8 +130,9 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:NERDTreeHijackNetrw=1
 
 " NERDtree: quick toggle with <F9>
-map <silent> <F9>   :Explore<CR>
-map <silent> <S-F9> :sp +Explore<CR>
+"map <silent> <F9>   :Explore<CR>
+"map <silent> <S-F9> :sp +Explore<CR>
+map <silent> <F9> :NERDTreeToggle<CR>
 
 " signify
 
