@@ -6,14 +6,14 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # source prompt definition
-if [ -f .bash_prompt ]; then
-	. .bash_prompt
+if [ -f $HOME/.bash_prompt ]; then
+	. $HOME/.bash_prompt
 fi
 
 # source local definitions
 # TODO move this to the end, to ensure local overrides all?
-if [ -f .bashrc_local ]; then
-	. .bashrc_local
+if [ -f $HOME/.bashrc_local ]; then
+	. $HOME/.bashrc_local
 fi
 
 # User specific aliases and functions
