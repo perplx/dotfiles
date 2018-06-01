@@ -34,6 +34,9 @@ fi
 # disable ctrl-S (Flow Control)
 stty -ixon
 
+# show exit-codes
+trap 'printf "EXIT CODE: \x1b[0;1;31m[$?]\x1b[0m\n"' ERR
+
 
 #
 # locale
