@@ -5,13 +5,23 @@
 
 " packages {{{
 
-" start pathogen
-if isdirectory('/nrg1/amr_alg/ncs/jdubuc/env/vim/bundle')
-	" grid-wide paths
-	execute pathogen#infect('/nrg1/amr_alg/ncs/jdubuc/env/vim/bundle/{}')
-else
-	execute pathogen#infect()
-endif
+" run the following command to install vim-plug:
+" curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+" call vim-plug
+call plug#begin('~/.vim/plugged')
+
+" colorschemes
+"Plug 'sickill/vim-monokai'
+"Plug 'nanotech/jellybeans.vim'
+
+" plugins
+Plug 'majutsushi/tagbar'
+Plug 'mhinz/vim-signify'
+Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-syntastic/syntastic'
+call plug#end()
 
 " }}}
 
@@ -47,6 +57,8 @@ nnoremap <F5> :buffers<CR>:buffer<Space>
 
 " colors
 colorscheme elflord
+"colorscheme jellybeans
+"colorscheme monokai
 "if &diff
 "	colorscheme evening
 "endif
