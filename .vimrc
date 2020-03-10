@@ -21,6 +21,9 @@ call plug#begin('~/.vim/plugged')
 "Plug 'sickill/vim-monokai'
 "Plug 'nanotech/jellybeans.vim'
 
+" filetypes
+Plug 'cespare/vim-toml'
+
 " plugins
 Plug 'majutsushi/tagbar'
 Plug 'mhinz/vim-signify'
