@@ -19,16 +19,18 @@ install()
 	ln -s -i $src_file_path $dst_file_path
 }
 
-dotfiles_dir=$HOME/dotfiles
+pushd $HOME
+dotfiles_dir=dotfiles
 
 # bash
-install $dotfiles_dir/.bashrc $HOME/.bashrc
-install $dotfiles_dir/.bash_prompt $HOME/.bash_prompt
+install $dotfiles_dir/.bashrc .bashrc
+install $dotfiles_dir/.bash_prompt .bash_prompt
 
 ## git
-#install $dotfiles_dir/.gitconfig $HOME/.gitconfig
-#install $dotfiles_dir/.gitignore_global $HOME/.gitignore_global
+#install $dotfiles_dir/.gitconfig .gitconfig
+#install $dotfiles_dir/.gitignore_global .gitignore_global
 
-install $dotfiles_dir/.screenrc $HOME/.screenrc
-install $dotfiles_dir/.tmux.conf $HOME/.tmux.conf
-install $dotfiles_dir/.vimrc $HOME/.vimrc
+install $dotfiles_dir/.screenrc .screenrc
+install $dotfiles_dir/.tmux.conf .tmux.conf
+install $dotfiles_dir/.vimrc .vimrc
+popd
