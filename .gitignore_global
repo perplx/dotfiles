@@ -1,5 +1,7 @@
 # compiled object files
+*.a
 *.o
+*.so
 
 # python object files
 *.pyc
