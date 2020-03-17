@@ -228,6 +228,14 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" buffer list nagivation
+" from Practical Vim 2nd ed.
+" TODO move to a better location
+nnoremap <silent> [b :bprevious<CR>
+nnoremap <silent> ]b :bnext<CR>
+nnoremap <silent> [B :bfirst<CR>
+nnoremap <silent> ]B :blast<CR>
+
 " local vim config (not shared)
 let $LOCALFILE=expand("~/.vimrc_local")
 if filereadable($LOCALFILE)
