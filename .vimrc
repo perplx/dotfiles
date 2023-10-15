@@ -117,7 +117,7 @@ endfunction
 " wildmenu
 set wildmenu
 set wildmode=list:longest,full
-set wildignore=*.o,*.obj,*.bak,*.exe,*.py[co],*.swp,*~,*.pyc,.svn
+set wildignore=*~,*.o,*.obj,*.bak,*.exe,*.py[cdo],*.sw[pon],.svn
 
 " }}}
 
