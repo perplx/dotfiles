@@ -241,3 +241,9 @@ let $LOCALFILE=expand("~/.vimrc_local")
 if filereadable($LOCALFILE)
 	source $LOCALFILE
 endif
+
+" toggle paste with <F2>
+set pastetoggle=<F2>
+
+" command history idefualt is 20
+set history=100
