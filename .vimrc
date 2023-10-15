@@ -27,6 +27,7 @@ Plug 'cespare/vim-toml'
 " plugins
 Plug 'majutsushi/tagbar'
 Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-syntastic/syntastic'
