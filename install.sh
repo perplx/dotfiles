@@ -30,6 +30,7 @@ install $dotfiles_dir/.bash_prompt .bash_prompt
 #install $dotfiles_dir/.gitconfig .gitconfig
 #install $dotfiles_dir/.gitignore_global .gitignore_global
 
+install $dotfiles_dir/.colordiffrc .colordiffrc
 install $dotfiles_dir/.screenrc .screenrc
 install $dotfiles_dir/.tmux.conf .tmux.conf
 install $dotfiles_dir/.vimrc .vimrc
