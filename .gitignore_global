@@ -4,12 +4,10 @@
 *.so
 
 # python object files
-*.pyc
-*.pyo
+*.py[cdo]
 
 # vim swap files
-*.swp
-*.swo
+*.sw[pon]
 
 # vim backup files
 *~
