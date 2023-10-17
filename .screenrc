@@ -1,4 +1,5 @@
 # Merci GWN!
+# https://web.archive.org/web/20140420134050/https://www.gentoo.org/news/en/gwn/20060925-newsletter.xml
 
 # use visual bell
 vbell on
@@ -8,3 +9,10 @@ vbell on
 defscrollback 5000
 # Set the caption on the bottom line
 caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %c"
+
+# fixes for colors in screen (i.e. vim)
+
+# https://stackoverflow.com/a/6918905 - force 256 colors in screen
+term screen-256color
+# https://stackoverflow.com/a/14709845 - force background colors to refresh
+defbce on
